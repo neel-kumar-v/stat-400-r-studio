@@ -1,0 +1,30 @@
+---
+title: "Discussion 4"
+author: "Neel Kumar"
+date: "2025-03-04"
+output: html_document
+---
+
+
+## Q4
+
+
+```{r}
+1-pbinom(299,400,0.75)
+```
+
+
+## Q5
+
+You can also embed plots, for example:
+
+```{r}
+dpois(1,3)
+dbinom(4,7,3 * exp(-3))
+```
+## Q6
+
+```{r}
+dhyper(4,14,23,17)
+phyper(3,14,23,17)
+```
