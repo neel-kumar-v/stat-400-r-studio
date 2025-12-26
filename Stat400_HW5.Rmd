@@ -1,8 +1,7 @@
 ---
-title: "Discussion 5"
-author: "Neel Kumar"
+title: "Neel Kumar HW5"
 output: html_document
-date: "2025-03-11"
+date: "2025-03-10"
 ---
 
 ```{r setup, include=FALSE}

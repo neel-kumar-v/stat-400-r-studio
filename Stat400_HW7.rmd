@@ -1,0 +1,12 @@
+L <- function(theta) {
+  # Data vector (will be provided in the actual function call)
+  x <- c(0.2, 0.5, 0.3, 0.2)  # Using the sample provided in part b
+  
+  # Number of observations
+  n <- length(x)
+  
+  # Computing the likelihood
+  likelihood <- theta^n * prod(x^(theta-1))
+  
+  return(likelihood)
+}
